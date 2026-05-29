@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32"><UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier></Filter>
+    <Filter Include="resource"><UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier></Filter>
+    <Filter Include="src"><UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier></Filter>
+    <Filter Include="src\Model"><UniqueIdentifier>{a1b2c3d4-1111-2222-3333-444455556666}</UniqueIdentifier></Filter>
+    <Filter Include="src\Controller"><UniqueIdentifier>{a1b2c3d4-7777-8888-9999-aaaabbbbcccc}</UniqueIdentifier></Filter>
+    <Filter Include="src\View"><UniqueIdentifier>{a1b2c3d4-dddd-eeee-ffff-000011112222}</UniqueIdentifier></Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp"><Filter>win32</Filter></ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="..\Classes\Model\CardTypes.cpp"><Filter>src\Model</Filter></ClCompile>
+    <ClCompile Include="..\Classes\Model\GameBoard.cpp"><Filter>src\Model</Filter></ClCompile>
+    <ClCompile Include="..\Classes\Controller\UndoManager.cpp"><Filter>src\Controller</Filter></ClCompile>
+    <ClCompile Include="..\Classes\Controller\Actions.cpp"><Filter>src\Controller</Filter></ClCompile>
+    <ClCompile Include="..\Classes\Controller\GameController.cpp"><Filter>src\Controller</Filter></ClCompile>
+    <ClCompile Include="..\Classes\View\CardSprite.cpp"><Filter>src\View</Filter></ClCompile>
+    <ClCompile Include="..\Classes\View\TableAreaView.cpp"><Filter>src\View</Filter></ClCompile>
+    <ClCompile Include="..\Classes\View\HandAreaView.cpp"><Filter>src\View</Filter></ClCompile>
+    <ClCompile Include="..\Classes\View\GameScene.cpp"><Filter>src\View</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h"><Filter>win32</Filter></ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="..\Classes\Model\CardTypes.h"><Filter>src\Model</Filter></ClInclude>
+    <ClInclude Include="..\Classes\Model\GameBoard.h"><Filter>src\Model</Filter></ClInclude>
+    <ClInclude Include="..\Classes\Model\IAction.h"><Filter>src\Model</Filter></ClInclude>
+    <ClInclude Include="..\Classes\Controller\MatchRule.h"><Filter>src\Controller</Filter></ClInclude>
+    <ClInclude Include="..\Classes\Controller\UndoManager.h"><Filter>src\Controller</Filter></ClInclude>
+    <ClInclude Include="..\Classes\Controller\Actions.h"><Filter>src\Controller</Filter></ClInclude>
+    <ClInclude Include="..\Classes\Controller\GameController.h"><Filter>src\Controller</Filter></ClInclude>
+    <ClInclude Include="..\Classes\View\CardSprite.h"><Filter>src\View</Filter></ClInclude>
+    <ClInclude Include="..\Classes\View\TableAreaView.h"><Filter>src\View</Filter></ClInclude>
+    <ClInclude Include="..\Classes\View\HandAreaView.h"><Filter>src\View</Filter></ClInclude>
+    <ClInclude Include="..\Classes\View\GameScene.h"><Filter>src\View</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc"><Filter>resource</Filter></ResourceCompile>
+  </ItemGroup>
+</Project>

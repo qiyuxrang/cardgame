@@ -1,0 +1,39 @@
+# Build outputs
+_build/
+b2/
+build/
+Debug/
+Release/
+*.exe
+*.pdb
+*.lib
+*.dll
+*.ilk
+*.exp
+
+# IDE
+.vs/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+ipch/
+
+# cocos2d-x SDK (users install separately)
+cocos2d/
+
+# Videos
+*.mp4
+
+# Backup files
+res_副本/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Zip/archive
+*.zip
+*.7z
